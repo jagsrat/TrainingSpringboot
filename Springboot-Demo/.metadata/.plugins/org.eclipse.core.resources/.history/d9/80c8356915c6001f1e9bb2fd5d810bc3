@@ -1,0 +1,5 @@
+package com.example.springbootDemo.exception;
+
+public class GlobalExceptionHandler {
+
+}

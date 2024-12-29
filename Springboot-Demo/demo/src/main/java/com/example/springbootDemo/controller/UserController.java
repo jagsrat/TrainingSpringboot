@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.*;
 import com.example.springbootDemo.entity.DemoUser;
 import com.example.springbootDemo.repository.UserRepository;
 
+import jakarta.validation.Valid;
+
 import java.util.List;
 
 @RestController
@@ -23,7 +25,7 @@ public class UserController {
     }
 
     @PostMapping
-    public DemoUser createUser(@RequestBody DemoUser user) {
+    public DemoUser createUser(@Valid @RequestBody DemoUser user) {
         return userRepository.save(user);
     }
 
@@ -33,7 +35,7 @@ public class UserController {
     }
 
     @PutMapping("/{id}")
-    public DemoUser updateUser(@PathVariable Long id, @RequestBody DemoUser userDetails) {
+    public DemoUser updateUser(@PathVariable Long id, @Valid @RequestBody DemoUser userDetails) {
     	DemoUser user = userRepository.findById(id).orElseThrow(() -> new RuntimeException("User not found"));
         user.setName(userDetails.getName());
         user.setEmail(userDetails.getEmail());
