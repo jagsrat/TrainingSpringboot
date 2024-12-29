@@ -1,0 +1,5 @@
+package com.example.springbootDemo.entity;
+
+public class User {
+
+}
