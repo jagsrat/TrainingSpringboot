@@ -1,5 +1,0 @@
-package com.example.springbootDemo.repository;
-
-public class UserRepository {
-
-}

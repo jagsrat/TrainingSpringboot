@@ -1,4 +1,4 @@
-!SESSION 2024-12-29 00:54:55.939 -----------------------------------------------
+!SESSION 2025-01-04 21:53:20.554 -----------------------------------------------
 eclipse.buildId=4.34.0.202411281622
 java.version=21.0.5
 java.vendor=Eclipse Adoptium
@@ -6,849 +6,41 @@ BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
 Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Volumes/HomeX/jagsrat/.eclipse_keyring
 Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Volumes/HomeX/jagsrat/.eclipse_keyring
 
-!ENTRY ch.qos.logback.classic 1 0 2024-12-29 00:54:58.859
+!ENTRY ch.qos.logback.classic 1 0 2025-01-04 21:53:22.977
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
-!ENTRY ch.qos.logback.classic 1 0 2024-12-29 00:55:58.275
-!MESSAGE Logback config file: /Volumes/HomeX/jagsrat/Documents/Springboot/Springboot-Demo/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
-
-!ENTRY org.eclipse.ui 2 0 2024-12-29 00:55:58.968
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-29 00:55:58.968
-!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
-
-!ENTRY org.eclipse.ui 2 0 2024-12-29 00:55:59.388
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-29 00:55:59.388
-!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
-
-!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2024-12-29 00:56:02.800
-!MESSAGE No search provider was registered. Tasks search is not available.
-!SESSION 2024-12-29 01:12:29.111 -----------------------------------------------
-eclipse.buildId=4.34.0.202411281622
-java.version=21.0.5
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
-Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Volumes/HomeX/jagsrat/.eclipse_keyring
-Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Volumes/HomeX/jagsrat/.eclipse_keyring
-
-!ENTRY ch.qos.logback.classic 1 0 2024-12-29 01:12:31.628
-!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
-
-!ENTRY ch.qos.logback.classic 1 0 2024-12-29 01:13:45.002
-!MESSAGE Logback config file: /Volumes/HomeX/jagsrat/Documents/Springboot/Springboot-Demo/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
-
-!ENTRY org.eclipse.ui 2 0 2024-12-29 01:13:45.831
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-29 01:13:45.832
-!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
-
-!ENTRY org.eclipse.ui 2 0 2024-12-29 01:13:46.279
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-29 01:13:46.279
-!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
-
-!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2024-12-29 01:13:49.460
-!MESSAGE No search provider was registered. Tasks search is not available.
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-29 01:18:18.943
-!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
-START:
-/Volumes/HomeX/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.5.v20241023-1957/jre/bin/java
--Dsts.lsp.client=eclipse
--Xmx1024m
--XX:TieredStopAtLevel=1
--Dspring.config.location=classpath:/application.properties
--Xlog:jni+resolve=off
--XX:ErrorFile=/Volumes/HomeX/jagsrat/Documents/Springboot/Springboot-Demo/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1735415298942
--Dlanguageserver.hover-timeout=225
--jar
-/Volumes/HomeX/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.59.0.202411281450/servers/spring-boot-language-server/spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
-END
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 01:18:18.945
-!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-29 01:18:18.960
-!MESSAGE Started org.springframework.tooling.boot.ls LS process 8346
-
-!ENTRY org.eclipse.jdt.core.manipulation 4 2 2024-12-29 01:18:19.839
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
-!STACK 0
-java.lang.IllegalStateException: Missing system library
-	at org.eclipse.jdt.core.dom.ASTParser.checkForSystemLibrary(ASTParser.java:311)
-	at org.eclipse.jdt.core.dom.ASTParser.getClasspath(ASTParser.java:272)
-	at org.eclipse.jdt.core.dom.ASTParser.internalCreateASTCached(ASTParser.java:1299)
-	at org.eclipse.jdt.core.dom.ASTParser.lambda$1(ASTParser.java:1178)
-	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
-	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1178)
-	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:918)
-	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
-	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
-	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
-	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:167)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.lambda$0(SelectionListenerWithASTManager.java:149)
-	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
-	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5683)
-	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6150)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:149)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: Java Model Exception: Error in Java Model (code 969): demo does not exist
-	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:556)
-	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:234)
-	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
-	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
-	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
-	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:2040)
-	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2775)
-	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2769)
-	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2787)
-	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2779)
-	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1681)
-	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1582)
-	at org.eclipse.jdt.core.dom.ASTParser.checkForSystemLibrary(ASTParser.java:304)
-	... 18 more
-
-!ENTRY org.eclipse.jdt.core.manipulation 4 0 2024-12-29 01:18:19.841
-!MESSAGE Error in JDT Core during AST creation
-!STACK 0
-java.lang.IllegalStateException: Missing system library
-	at org.eclipse.jdt.core.dom.ASTParser.checkForSystemLibrary(ASTParser.java:311)
-	at org.eclipse.jdt.core.dom.ASTParser.getClasspath(ASTParser.java:272)
-	at org.eclipse.jdt.core.dom.ASTParser.internalCreateASTCached(ASTParser.java:1299)
-	at org.eclipse.jdt.core.dom.ASTParser.lambda$1(ASTParser.java:1178)
-	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
-	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1178)
-	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:918)
-	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
-	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
-	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
-	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:167)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.lambda$0(SelectionListenerWithASTManager.java:149)
-	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
-	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5683)
-	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6150)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:149)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: Java Model Exception: Error in Java Model (code 969): demo does not exist
-	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:556)
-	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:234)
-	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
-	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
-	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
-	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:2040)
-	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2775)
-	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2769)
-	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2787)
-	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2779)
-	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1681)
-	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1582)
-	at org.eclipse.jdt.core.dom.ASTParser.checkForSystemLibrary(ASTParser.java:304)
-	... 18 more
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 01:18:55.128
-!MESSAGE Classpath changed for project: demo
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 01:18:55.130
-!MESSAGE Boot project ADDED: demo
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 01:18:55.131
-!MESSAGE Starting Boot LS...
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 01:18:55.131
-!MESSAGE Started Boot LS process
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 01:19:10.977
-!MESSAGE Classpath changed for project: demo
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2024-12-29 01:20:07.531
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Error in Java Model (code 969): com.example.demo [in src/main/java/com/example/demo [in demo]] does not exist
-	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:187)
-	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:448)
-	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:102)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:821)
-	at org.eclipse.jdt.internal.core.JavaModel.runOperation(JavaModel.java:312)
-	at org.eclipse.jdt.internal.core.JavaModel.move(JavaModel.java:271)
-	at org.eclipse.jdt.internal.core.CompilationUnit.move(CompilationUnit.java:1272)
-	at org.eclipse.jdt.internal.corext.refactoring.changes.MoveCompilationUnitChange.doPerformReorg(MoveCompilationUnitChange.java:90)
-	at org.eclipse.jdt.internal.corext.refactoring.changes.CompilationUnitReorgChange.perform(CompilationUnitReorgChange.java:68)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
-	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:179)
-	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:109)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.apply(AbstractAnnotationHover.java:561)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl$4.widgetSelected(AbstractAnnotationHover.java:532)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:265)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4660)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1622)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1645)
-	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1695)
-	at org.eclipse.swt.widgets.Link.textView_clickOnLink_atIndex(Link.java:802)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6762)
-	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
-	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:239)
-	at org.eclipse.swt.widgets.Widget.mouseDownSuper(Widget.java:1214)
-	at org.eclipse.swt.widgets.Widget.mouseDown(Widget.java:1206)
-	at org.eclipse.swt.widgets.Control.mouseDown(Control.java:2593)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6285)
-	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
-	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:239)
-	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2372)
-	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2502)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6401)
-	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
-	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5705)
-	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5845)
-	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
-	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:117)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4000)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
-!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-12-29 01:20:07.532
-!MESSAGE com.example.demo [in src/main/java/com/example/demo [in demo]] does not exist
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2024-12-29 01:22:39.555
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Error in Java Model (code 969): com.example.demo [in src/main/java/com/example/demo [in demo]] does not exist
-	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:187)
-	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:448)
-	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:102)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:821)
-	at org.eclipse.jdt.internal.core.JavaModel.runOperation(JavaModel.java:312)
-	at org.eclipse.jdt.internal.core.JavaModel.move(JavaModel.java:271)
-	at org.eclipse.jdt.internal.core.CompilationUnit.move(CompilationUnit.java:1272)
-	at org.eclipse.jdt.internal.corext.refactoring.changes.MoveCompilationUnitChange.doPerformReorg(MoveCompilationUnitChange.java:90)
-	at org.eclipse.jdt.internal.corext.refactoring.changes.CompilationUnitReorgChange.perform(CompilationUnitReorgChange.java:68)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
-	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:179)
-	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:109)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.apply(AbstractAnnotationHover.java:561)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl$4.widgetSelected(AbstractAnnotationHover.java:532)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:265)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4660)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1622)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1645)
-	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1695)
-	at org.eclipse.swt.widgets.Link.textView_clickOnLink_atIndex(Link.java:802)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6762)
-	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
-	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:239)
-	at org.eclipse.swt.widgets.Widget.mouseDownSuper(Widget.java:1214)
-	at org.eclipse.swt.widgets.Widget.mouseDown(Widget.java:1206)
-	at org.eclipse.swt.widgets.Control.mouseDown(Control.java:2593)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6285)
-	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
-	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:239)
-	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2372)
-	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2502)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6401)
-	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
-	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5705)
-	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5845)
-	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
-	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:117)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4000)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
-!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-12-29 01:22:39.556
-!MESSAGE com.example.demo [in src/main/java/com/example/demo [in demo]] does not exist
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2024-12-29 01:22:51.777
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Error in Java Model (code 969): com.example.demo [in src/main/java/com/example/demo [in demo]] does not exist
-	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:187)
-	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:448)
-	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:102)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:821)
-	at org.eclipse.jdt.internal.core.JavaModel.runOperation(JavaModel.java:312)
-	at org.eclipse.jdt.internal.core.JavaModel.move(JavaModel.java:271)
-	at org.eclipse.jdt.internal.core.CompilationUnit.move(CompilationUnit.java:1272)
-	at org.eclipse.jdt.internal.corext.refactoring.changes.MoveCompilationUnitChange.doPerformReorg(MoveCompilationUnitChange.java:90)
-	at org.eclipse.jdt.internal.corext.refactoring.changes.CompilationUnitReorgChange.perform(CompilationUnitReorgChange.java:68)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
-	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:179)
-	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:109)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.apply(AbstractAnnotationHover.java:561)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl$4.widgetSelected(AbstractAnnotationHover.java:532)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:265)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4660)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1622)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1645)
-	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1695)
-	at org.eclipse.swt.widgets.Link.textView_clickOnLink_atIndex(Link.java:802)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6762)
-	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
-	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:239)
-	at org.eclipse.swt.widgets.Widget.mouseDownSuper(Widget.java:1214)
-	at org.eclipse.swt.widgets.Widget.mouseDown(Widget.java:1206)
-	at org.eclipse.swt.widgets.Control.mouseDown(Control.java:2593)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6285)
-	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
-	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:239)
-	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2372)
-	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2502)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6401)
-	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
-	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5705)
-	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5845)
-	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
-	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:117)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4000)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
-!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-12-29 01:22:51.778
-!MESSAGE com.example.demo [in src/main/java/com/example/demo [in demo]] does not exist
-
-!ENTRY org.eclipse.lsp4e 2 0 2024-12-29 01:32:21.729
-!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
-!STACK 0
-java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:152)
-	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
-	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
-	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
-	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:225)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4660)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1622)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1645)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1630)
-	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1392)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4427)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4003)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
-
-!ENTRY org.eclipse.lsp4e 2 0 2024-12-29 01:32:22.756
-!MESSAGE Could not get hover information due to timeout after 1000 milliseconds
-!STACK 0
-java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:73)
-	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 01:33:46.470
-!MESSAGE Classpath changed for project: demo
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 01:33:46.764
-!MESSAGE Classpath changed for project: demo
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 01:33:55.673
-!MESSAGE Classpath changed for project: demo
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 01:35:33.227
-!MESSAGE Classpath changed for project: demo
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2024-12-29 01:37:36.325
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Core Exception [code 275] A resource exists with a different case: '/demo/src/main/java/com/example/springbootDemo'.
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:314)
-	at org.eclipse.jdt.internal.core.CreatePackageFragmentOperation.executeOperation(CreatePackageFragmentOperation.java:92)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:821)
-	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:327)
-	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.createType(NewTypeWizardPage.java:2741)
-	at org.eclipse.jdt.internal.ui.wizards.NewClassCreationWizard.finishPage(NewClassCreationWizard.java:68)
-	at org.eclipse.jdt.internal.ui.wizards.NewElementWizard.lambda$1(NewElementWizard.java:118)
-	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
-	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6106)
-	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
-Caused by: java.lang.Exception: A resource exists with a different case: '/demo/src/main/java/com/example/springbootDemo'.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:352)
-	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:330)
-	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)
-	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:308)
-	... 16 more
-Caused by: org.eclipse.core.internal.resources.ResourceException(/demo/src/main/java/com/example/springbootDemo)[275]: java.lang.Exception: A resource exists with a different case: '/demo/src/main/java/com/example/springbootDemo'.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:352)
-	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:330)
-	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)
-	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:308)
-	at org.eclipse.jdt.internal.core.CreatePackageFragmentOperation.executeOperation(CreatePackageFragmentOperation.java:92)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:821)
-	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:327)
-	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.createType(NewTypeWizardPage.java:2741)
-	at org.eclipse.jdt.internal.ui.wizards.NewClassCreationWizard.finishPage(NewClassCreationWizard.java:68)
-	at org.eclipse.jdt.internal.ui.wizards.NewElementWizard.lambda$1(NewElementWizard.java:118)
-	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
-	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6106)
-	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
-!SUBENTRY 1 org.eclipse.core.resources 4 275 2024-12-29 01:37:36.330
-!MESSAGE A resource exists with a different case: '/demo/src/main/java/com/example/springbootDemo'.
-!STACK 0
-java.lang.Exception: A resource exists with a different case: '/demo/src/main/java/com/example/springbootDemo'.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:352)
-	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:330)
-	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)
-	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:308)
-	at org.eclipse.jdt.internal.core.CreatePackageFragmentOperation.executeOperation(CreatePackageFragmentOperation.java:92)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:821)
-	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:327)
-	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.createType(NewTypeWizardPage.java:2741)
-	at org.eclipse.jdt.internal.ui.wizards.NewClassCreationWizard.finishPage(NewClassCreationWizard.java:68)
-	at org.eclipse.jdt.internal.ui.wizards.NewElementWizard.lambda$1(NewElementWizard.java:118)
-	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
-	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6106)
-	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
-!SESSION 2024-12-29 18:56:44.561 -----------------------------------------------
-eclipse.buildId=4.34.0.202411281622
-java.version=21.0.5
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
-Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Volumes/HomeX/jagsrat/.eclipse_keyring
-Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Volumes/HomeX/jagsrat/.eclipse_keyring
-
-!ENTRY ch.qos.logback.classic 1 0 2024-12-29 18:56:47.573
-!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
-
-!ENTRY ch.qos.logback.classic 1 0 2024-12-29 18:57:19.622
-!MESSAGE Logback config file: /Volumes/HomeX/jagsrat/Documents/Springboot/Springboot-Demo/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
-
-!ENTRY org.eclipse.ui 2 0 2024-12-29 18:57:20.376
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-29 18:57:20.376
-!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
-
-!ENTRY org.eclipse.ui 2 0 2024-12-29 18:57:20.871
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-29 18:57:20.871
-!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-29 18:57:24.502
-!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
-START:
-/Volumes/HomeX/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.5.v20241023-1957/jre/bin/java
--Dsts.lsp.client=eclipse
--Xmx1024m
--XX:TieredStopAtLevel=1
--Dspring.config.location=classpath:/application.properties
--Xlog:jni+resolve=off
--XX:ErrorFile=/Volumes/HomeX/jagsrat/Documents/Springboot/Springboot-Demo/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1735478844499
--Dlanguageserver.hover-timeout=225
--jar
-/Volumes/HomeX/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.59.0.202411281450/servers/spring-boot-language-server/spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
-END
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 18:57:24.503
-!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-29 18:57:24.528
-!MESSAGE Started org.springframework.tooling.boot.ls LS process 3595
-
-!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2024-12-29 18:57:24.674
-!MESSAGE No search provider was registered. Tasks search is not available.
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 18:57:26.859
-!MESSAGE Boot project ADDED: demo
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 18:57:26.883
-!MESSAGE Starting Boot LS...
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 18:57:26.897
-!MESSAGE Started Boot LS process
-
-!ENTRY org.eclipse.lsp4e 2 0 2024-12-29 19:18:19.867
-!MESSAGE Timeout waiting for data to generate LS hover
-!STACK 0
-java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 19:24:07.080
-!MESSAGE Classpath changed for project: demo
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 19:24:07.191
-!MESSAGE Classpath changed for project: demo
-
-!ENTRY org.eclipse.lsp4e 2 0 2024-12-29 19:24:08.682
-!MESSAGE Timeout waiting for data to generate LS hover
-!STACK 0
-java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 19:24:10.704
-!MESSAGE Classpath changed for project: demo
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 19:35:54.120
-!MESSAGE Classpath changed for project: demo
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 19:35:54.473
-!MESSAGE Classpath changed for project: demo
-!SESSION 2024-12-29 19:41:29.456 -----------------------------------------------
-eclipse.buildId=4.34.0.202411281622
-java.version=21.0.5
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
-Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Volumes/HomeX/jagsrat/.eclipse_keyring
-Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Volumes/HomeX/jagsrat/.eclipse_keyring
-
-!ENTRY ch.qos.logback.classic 1 0 2024-12-29 19:41:31.837
-!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
-
-!ENTRY ch.qos.logback.classic 1 0 2024-12-29 19:41:35.717
-!MESSAGE Logback config file: /Volumes/HomeX/jagsrat/Documents/Springboot/Springboot-Demo/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
-
-!ENTRY org.eclipse.ui 2 0 2024-12-29 19:41:36.590
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-29 19:41:36.590
-!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
-
-!ENTRY org.eclipse.ui 2 0 2024-12-29 19:41:37.016
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-29 19:41:37.016
-!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-29 19:41:40.763
-!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
-START:
-/Volumes/HomeX/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.5.v20241023-1957/jre/bin/java
--Dsts.lsp.client=eclipse
--Xmx1024m
--XX:TieredStopAtLevel=1
--Dspring.config.location=classpath:/application.properties
--Xlog:jni+resolve=off
--XX:ErrorFile=/Volumes/HomeX/jagsrat/Documents/Springboot/Springboot-Demo/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1735481500761
--Dlanguageserver.hover-timeout=225
--jar
-/Volumes/HomeX/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.59.0.202411281450/servers/spring-boot-language-server/spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
-END
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 19:41:40.765
-!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-29 19:41:40.784
-!MESSAGE Started org.springframework.tooling.boot.ls LS process 4189
-
-!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2024-12-29 19:41:40.942
-!MESSAGE No search provider was registered. Tasks search is not available.
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 19:41:43.244
-!MESSAGE Boot project ADDED: demo
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 19:41:43.257
-!MESSAGE Starting Boot LS...
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 19:41:43.271
-!MESSAGE Started Boot LS process
-
-!ENTRY org.eclipse.lsp4e 2 0 2024-12-29 19:50:05.326
-!MESSAGE Javadoc unavailable. Failed to obtain it.
-!STACK 0
-java.lang.InterruptedException
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-
-!ENTRY org.eclipse.ui 4 0 2024-12-29 20:20:29.049
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Display.filters(int)" because "this.display" is null
-	at org.eclipse.swt.widgets.Widget.filters(Widget.java:873)
-	at org.eclipse.swt.widgets.Control.scrollWheel(Control.java:2519)
-	at org.eclipse.swt.widgets.Link.scrollWheel(Link.java:591)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6409)
-	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
-	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:239)
-	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2372)
-	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2502)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6401)
-	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
-	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5705)
-	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5845)
-	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
-	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:117)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4000)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
-!SESSION 2024-12-29 21:09:53.291 -----------------------------------------------
-eclipse.buildId=4.34.0.202411281622
-java.version=21.0.5
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
-Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Volumes/HomeX/jagsrat/.eclipse_keyring
-Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Volumes/HomeX/jagsrat/.eclipse_keyring
-
-!ENTRY ch.qos.logback.classic 1 0 2024-12-29 21:09:56.267
-!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
-
-!ENTRY org.eclipse.core.resources 2 10035 2024-12-29 21:10:09.589
-!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
-
-!ENTRY org.eclipse.core.resources 4 567 2024-12-29 21:10:09.663
-!MESSAGE Workspace restored, but some problems occurred.
-!SUBENTRY 1 org.eclipse.core.resources 4 567 2024-12-29 21:10:09.663
-!MESSAGE Could not read metadata for '.org.eclipse.egit.core.cmp'.
-!STACK 1
-org.eclipse.core.internal.resources.ResourceException(/.org.eclipse.egit.core.cmp)[567]: java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:970)
-	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
-	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
-	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
-	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
-	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2624)
-	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2325)
-	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:591)
-	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
-	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
-	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
-	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
-	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
-	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
-	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
-	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:565)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
-	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
-	at org.eclipse.osgi.container.Module.start(Module.java:498)
-	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
-	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
-	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
-	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
-	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
-	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
-	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:516)
-	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
-	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:179)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
-!SUBENTRY 2 org.eclipse.core.resources 4 567 2024-12-29 21:10:09.666
-!MESSAGE The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
-!STACK 0
-java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:970)
-	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
-	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
-	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
-	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
-	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2624)
-	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2325)
-	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:591)
-	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
-	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
-	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
-	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
-	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
-	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
-	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
-	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:565)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
-	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
-	at org.eclipse.osgi.container.Module.start(Module.java:498)
-	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
-	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
-	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
-	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
-	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
-	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
-	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:516)
-	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
-	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:179)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
-
-!ENTRY ch.qos.logback.classic 1 0 2024-12-29 21:10:10.110
+!ENTRY ch.qos.logback.classic 1 0 2025-01-04 21:53:28.313
 !MESSAGE Logback config file: /Volumes/HomeX/jagsrat/Documents/GitHub/TrainingSpringboot/Springboot-Demo/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
 
-!ENTRY org.eclipse.ui 2 0 2024-12-29 21:10:10.911
+!ENTRY org.eclipse.ui 2 0 2025-01-04 21:53:29.097
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-29 21:10:10.912
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-01-04 21:53:29.097
 !MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
 
-!ENTRY org.eclipse.ui 2 0 2024-12-29 21:10:11.335
+!ENTRY org.eclipse.ui 2 0 2025-01-04 21:53:29.498
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-29 21:10:11.336
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-01-04 21:53:29.498
 !MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-29 21:10:14.827
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-01-04 21:53:32.964
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 23:51:28.689
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 23:51:30.879
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 23:51:30.908
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 23:51:30.909
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 23:51:31.025
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-04 23:51:31.079
 !MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
 START:
 /Volumes/HomeX/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.5.v20241023-1957/jre/bin/java
@@ -857,35 +49,128 @@ START:
 -XX:TieredStopAtLevel=1
 -Dspring.config.location=classpath:/application.properties
 -Xlog:jni+resolve=off
--XX:ErrorFile=/Volumes/HomeX/jagsrat/Documents/GitHub/TrainingSpringboot/Springboot-Demo/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1735486814825
+-XX:ErrorFile=/Volumes/HomeX/jagsrat/Documents/GitHub/TrainingSpringboot/Springboot-Demo/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1736014891048
 -Dlanguageserver.hover-timeout=225
 -jar
 /Volumes/HomeX/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.59.0.202411281450/servers/spring-boot-language-server/spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
 END
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 21:10:14.829
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 23:51:31.079
 !MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-29 21:10:14.845
-!MESSAGE Started org.springframework.tooling.boot.ls LS process 5854
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-04 23:51:31.091
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 12415
 
-!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2024-12-29 21:10:14.983
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-04 23:51:33.735
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY Activator 4 0 2025-01-05 00:00:42.278
+!MESSAGE DebugException: Launch configuration New_configuration at file:/Volumes/HomeX/jagsrat/Documents/GitHub/TrainingSpringboot/Springboot-Demo/.metadata/.plugins/org.eclipse.debug.core/.launches/New_configuration.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration New_configuration at file:/Volumes/HomeX/jagsrat/Documents/GitHub/TrainingSpringboot/Springboot-Demo/.metadata/.plugins/org.eclipse.debug.core/.launches/New_configuration.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:777)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1251)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:464)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:415)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProjectName(AbstractBootLaunchConfigurationDelegate.java:316)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProject(AbstractBootLaunchConfigurationDelegate.java:301)
+	at org.springframework.ide.eclipse.boot.dash.util.LaunchConfigurationTracker$2.run(LaunchConfigurationTracker.java:120)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2025-01-05 00:00:42.280
+!MESSAGE Launch configuration New_configuration at file:/Volumes/HomeX/jagsrat/Documents/GitHub/TrainingSpringboot/Springboot-Demo/.metadata/.plugins/org.eclipse.debug.core/.launches/New_configuration.launch does not exist.
+!SESSION 2025-01-05 08:03:26.766 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Volumes/HomeX/jagsrat/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Volumes/HomeX/jagsrat/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-05 08:03:30.006
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-05 08:03:38.121
+!MESSAGE Logback config file: /Volumes/HomeX/jagsrat/Documents/GitHub/TrainingSpringboot/Springboot-Demo/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-01-05 08:03:38.909
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-01-05 08:03:38.909
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-01-05 08:03:39.406
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-01-05 08:03:39.407
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-05 08:03:43.568
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Volumes/HomeX/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.5.v20241023-1957/jre/bin/java
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=/Volumes/HomeX/jagsrat/Documents/GitHub/TrainingSpringboot/Springboot-Demo/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1736044423567
+-Dlanguageserver.hover-timeout=225
+-jar
+/Volumes/HomeX/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.59.0.202411281450/servers/spring-boot-language-server/spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-05 08:03:43.569
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-05 08:03:43.585
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 886
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-01-05 08:03:43.719
 !MESSAGE No search provider was registered. Tasks search is not available.
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 21:10:17.458
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-05 08:03:46.076
 !MESSAGE Boot project ADDED: demo
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 21:10:17.459
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-05 08:03:46.086
 !MESSAGE Starting Boot LS...
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-29 21:10:17.465
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-05 08:03:46.093
 !MESSAGE Started Boot LS process
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-30 00:11:07.658
-!MESSAGE Classpath changed for project: demo
+!ENTRY org.eclipse.lsp4e 4 0 2025-01-05 09:27:42.653
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:82)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:54)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:353)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:332)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:288)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-30 00:11:08.027
-!MESSAGE Classpath changed for project: demo
+!ENTRY org.eclipse.egit.core 4 0 2025-01-05 09:37:44.592
+!MESSAGE An exception occurred during push on URI https://github.com/jagsrat/TrainingSpringboot.git: https://github.com/jagsrat/TrainingSpringboot.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/jagsrat/TrainingSpringboot.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-30 00:11:09.688
-!MESSAGE Classpath changed for project: demo
+!ENTRY org.eclipse.egit.ui 4 0 2025-01-05 09:37:44.600
+!MESSAGE Can't connect to any repository: https://github.com/jagsrat/TrainingSpringboot.git (https://github.com/jagsrat/TrainingSpringboot.git: not authorized)
