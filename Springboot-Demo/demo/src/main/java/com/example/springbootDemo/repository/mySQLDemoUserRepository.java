@@ -14,8 +14,10 @@ import com.example.springbootDemo.entity.demoMYSQLUser;
 public interface mySQLDemoUserRepository extends JpaRepository<demoMYSQLUser, Long> , JpaSpecificationExecutor<demoMYSQLUser>{
 	
 	
-	List<demoMYSQLUser> findByemail(String email);
+
 
 	Page<demoMYSQLUser> findByemail(String email, Pageable pageable);
+
+	List<demoMYSQLUser> findByemail(String email);
 }
 
